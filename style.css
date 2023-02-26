@@ -1,0 +1,30 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status, #detect
+{
+font-size: 18px;
+}
+body
+{
+    background-size:cover;
+    font-family: 'Zeyada', sans-serif;
+}
+canvas
+{
+    margin-top: 30px;
+    border-radius:20px;
+    border:double 2px rebeccapurple;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation
+{
+    from{box-shadow: 3px 3px 35px rebeccapurple;}
+    to{box-shadow: 3px 3px 35px royalblue;}
+}
